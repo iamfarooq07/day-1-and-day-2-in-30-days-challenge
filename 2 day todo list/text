@@ -1,0 +1,23 @@
+Day 2 project Todo App with LocalStorage hi hai.
+
+Is project ka roadmap:
+
+📝 Features
+
+Add Task → Input field se task add hoga.
+
+Show Tasks → Saare tasks ek list mein appear honge.
+
+Mark as Complete → Checkbox ya line-through style se.
+
+Delete Task → Har task ke sath ❌ button.
+
+Save in LocalStorage → Refresh ke baad bhi tasks wahan rahen.
+
+⚡ Extra Challenge
+
+"Clear All Tasks" button add karo.
+
+Completed tasks ko alag style do (for example green background).
+
+Tasks ko date & time ke sath save karo

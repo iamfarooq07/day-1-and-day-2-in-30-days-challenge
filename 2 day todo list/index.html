@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Day 2 - Todo App local Storage</title>
+</head>
+
+<body
+    class="min-h-screen bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500 flex justify-center items-center p-4">
+
+    <div class="w-full max-w-lg bg-white/90 shadow-2xl rounded-3xl p-6">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-800 text-center mb-6">
+            My Todo App
+        </h1>
+
+
+        <form id="from" class="flex gap-2 mb-6">
+            <input type="text" id="task" placeholder="Add your task..."
+                class="flex-1 p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 text-gray-700">
+            <button id="addBtn" class="px-6 bg-indigo-500 text-white rounded-xl hover:bg-indigo-600 transition-colors">
+                Add
+            </button>
+        </form>
+
+
+        <ul id="listAdd" class="space-y-3">
+
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

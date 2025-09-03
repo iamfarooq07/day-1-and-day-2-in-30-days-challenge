@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Digital Clock</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-900 flex justify-center items-center h-screen">
+
+
+    <div class="flex flex-col items-center space-y-8">
+
+        <h1 class="text-center text-8xl text-emerald-500 font-bold">Digital Clock</h1>
+
+        <div class="clock bg-red-300 border-4 border-black rounded-2xl shadow-2xl flex items-center justify-center h-full w-full text-7xl p-7"
+            style="font-family: 'Orbitron', sans-serif;">
+
+            <div class="hours text-6xl font-bold text-black drop-shadow-[0_0_10px_rgba(0,0,0,0.8)]">
+                <h1>00</h1>
+            </div>
+            <div class="text-6xl font-bold text-black">:</div>
+            <div class="minutes text-6xl font-bold text-black drop-shadow-[0_0_10px_rgba(0,0,0,0.8)]">
+                <h1>00</h1>
+            </div>
+            <div class="text-6xl font-bold text-black">:</div>
+            <div class="seconds text-6xl font-bold text-black drop-shadow-[0_0_10px_rgba(0,0,0,0.8)]">
+                <h1>00</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
