@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Countdown Timer</title>
+  </head>
+  <body
+    class="w-screen h-screen bg-gradient-to-b from-red-300 to-red-600 flex justify-center items-center"
+  >
+    <div class="container bg-white w-[40%] rounded-2xl p-4 shadow-md">
+      <h1 class="text-center text-5xl font-bold">Countdown Timer</h1>
+      <div>
+        <input
+          type="number"
+          placeholder="Enter Your Time"
+          id="input"
+          class="w-full p-4 rounded-2xl bg-gray-300 mt-3 mb-4"
+        />
+      </div>
+      <div id="time" class="flex justify-center gap-6 text-3xl font-mono">
+        <div>
+          <p id="hours" class="text-6xl">00</p>
+          <!-- <span>Hours</span> -->
+        </div>
+        <div>
+          <p id="minutes" class="text-6xl">00</p>
+          <!-- <span>Minutes</span> -->
+        </div>
+        <div>
+          <p id="seconds" class="text-6xl">00</p>
+          <!-- <span>Seconds</span> -->
+        </div>
+      </div>
+      <div class="btn flex justify-between items-center">
+        <button
+          id="startBtn"
+          class="w-[45%] mt-3 p-4 rounded-2xl bg-gradient-to-r from-red-200 to-red-600 text-white text-2xl font-bold"
+        >
+          Start Countdown
+        </button>
+        <button
+          id="stopBtn"
+          class="w-[45%] mt-3 p-4 rounded-2xl bg-gradient-to-r from-red-200 to-red-600 text-white text-2xl font-bold"
+        >
+          Stop Countdown
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
